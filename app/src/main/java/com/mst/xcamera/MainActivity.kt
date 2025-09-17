@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             XCameraTheme {
-                    AddView()
+                    NavManager()
             }
         }
     }
@@ -30,5 +30,5 @@ class MainActivity : ComponentActivity() {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    AddView()
+    NavManager()
 }
